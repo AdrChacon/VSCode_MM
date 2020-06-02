@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/grero/CLionProjects/Vs_Code/main.cpp
+iostream
+-
+vsptr.h
+/cygdrive/c/Users/grero/CLionProjects/Vs_Code/vsptr.h
+
+/cygdrive/c/Users/grero/CLionProjects/Vs_Code/vsptr.h
+
