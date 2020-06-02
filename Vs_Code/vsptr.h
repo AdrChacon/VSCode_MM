@@ -20,6 +20,26 @@ public:
 
         cont ++;
     }
+    // clase operator&
+    // sobrecarga de &
+    T operator&(){
+        return get_ptr();
+    };
+    // clase operator=
+    // sobrecarga de = (valor concreto)
+    void operator=(const T valor){
+        *ptr = valor;
+    };
+    // clase &operator*
+    // sobrecarga de * (cuando el puntero esta derefenciado)
+    T &operator*(){
+        return *ptr;
+    };
+    // clase operator=
+    // sobrecarga de = (cuando se le pasa valor de puntero)
+    void operator=(T *valor){
+        this->set_ptr(valor);
+    };
     // New
     // crea el Vsptr
     static Vsptr<T> New(){
@@ -38,5 +58,6 @@ public:
         Vsptr::ptr = punt;
 
     };
+
 };
 #endif //VS_CODE_VSPTR_H
