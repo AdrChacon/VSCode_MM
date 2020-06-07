@@ -1,5 +1,6 @@
 #include <iostream>
 #include "vsptr.h"
+#include "Client.h"
 using namespace std;
 // main
 int main() {
@@ -18,6 +19,9 @@ int main() {
     std::cout << &myPtr3 << std::endl;
     std ::cout << "El valor de myPtr2(myPtr2 = myPtr;):" <<std ::endl;
     std::cout << &myPtr2<< std::endl;
+
+    Client socket;
+    socket.client();
 
 
     return 0;

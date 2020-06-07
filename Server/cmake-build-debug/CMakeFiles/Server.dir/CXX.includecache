@@ -6,25 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/grero/CLionProjects/Vs_Code/Client.cpp
-Client.h
-/cygdrive/c/Users/grero/CLionProjects/Vs_Code/Client.h
+/cygdrive/c/Users/grero/CLionProjects/Server/main.cpp
+iostream
+-
 stdio.h
 -
 stdlib.h
 -
-unistd.h
--
 string.h
 -
-sys/types.h
+unistd.h
 -
 sys/socket.h
 -
 netinet/in.h
 -
-netdb.h
+arpa/inet.h
 -
-
-/cygdrive/c/Users/grero/CLionProjects/Vs_Code/Client.h
 

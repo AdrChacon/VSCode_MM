@@ -48,10 +48,10 @@ RM = /cygdrive/c/Users/grero/AppData/Local/JetBrains/CLion2020.1/cygwin_cmake/bi
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Users/grero/CLionProjects/Vs_Code
+CMAKE_SOURCE_DIR = /cygdrive/c/Users/grero/CLionProjects/Server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Users/grero/CLionProjects/Vs_Code/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/c/Users/grero/CLionProjects/Server/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/grero/CLionProjects/Vs_Code/cmake-build-debug/CMakeFiles /cygdrive/c/Users/grero/CLionProjects/Vs_Code/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/grero/CLionProjects/Server/cmake-build-debug/CMakeFiles /cygdrive/c/Users/grero/CLionProjects/Server/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/grero/CLionProjects/Vs_Code/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/grero/CLionProjects/Server/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,44 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Vs_Code
+# Target rules for targets named Server
 
 # Build rule for target.
-Vs_Code: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Vs_Code
-.PHONY : Vs_Code
+Server: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Server
+.PHONY : Server
 
 # fast build rule for target.
-Vs_Code/fast:
-	$(MAKE) -f CMakeFiles/Vs_Code.dir/build.make CMakeFiles/Vs_Code.dir/build
-.PHONY : Vs_Code/fast
-
-Client.o: Client.cpp.o
-
-.PHONY : Client.o
-
-# target to build an object file
-Client.cpp.o:
-	$(MAKE) -f CMakeFiles/Vs_Code.dir/build.make CMakeFiles/Vs_Code.dir/Client.cpp.o
-.PHONY : Client.cpp.o
-
-Client.i: Client.cpp.i
-
-.PHONY : Client.i
-
-# target to preprocess a source file
-Client.cpp.i:
-	$(MAKE) -f CMakeFiles/Vs_Code.dir/build.make CMakeFiles/Vs_Code.dir/Client.cpp.i
-.PHONY : Client.cpp.i
-
-Client.s: Client.cpp.s
-
-.PHONY : Client.s
-
-# target to generate assembly for a file
-Client.cpp.s:
-	$(MAKE) -f CMakeFiles/Vs_Code.dir/build.make CMakeFiles/Vs_Code.dir/Client.cpp.s
-.PHONY : Client.cpp.s
+Server/fast:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/build
+.PHONY : Server/fast
 
 main.o: main.cpp.o
 
@@ -156,7 +129,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/Vs_Code.dir/build.make CMakeFiles/Vs_Code.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -165,7 +138,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/Vs_Code.dir/build.make CMakeFiles/Vs_Code.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -174,7 +147,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/Vs_Code.dir/build.make CMakeFiles/Vs_Code.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -184,11 +157,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... Vs_Code"
+	@echo "... Server"
 	@echo "... edit_cache"
-	@echo "... Client.o"
-	@echo "... Client.i"
-	@echo "... Client.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/cygdrive/c/Users/grero/CLionProjects/Vs_Code/Client.cpp">
+			<Option target="Vs_Code"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/grero/CLionProjects/Vs_Code/Client.h">
+			<Option target="Vs_Code"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/grero/CLionProjects/Vs_Code/main.cpp">
 			<Option target="Vs_Code"/>
 		</Unit>

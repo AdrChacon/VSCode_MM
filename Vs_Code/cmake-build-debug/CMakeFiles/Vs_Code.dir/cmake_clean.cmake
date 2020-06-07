@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Vs_Code.dir/Client.cpp.o"
   "CMakeFiles/Vs_Code.dir/main.cpp.o"
   "Vs_Code.exe"
   "Vs_Code.pdb"
