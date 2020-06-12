@@ -89,6 +89,9 @@
 		<Unit filename="/cygdrive/c/Users/grero/CLionProjects/Vs_Code/main.cpp">
 			<Option target="Vs_Code"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Users/grero/CLionProjects/Vs_Code/vsptr.h">
+			<Option target="Vs_Code"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/grero/CLionProjects/Vs_Code/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

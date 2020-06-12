@@ -6,9 +6,15 @@
 #define VS_CODE_CLIENT_H
 
 
+#include <string>
+
 class Client {
     public:
-    int client();
+
+    std::string inicializador();
+    int asignador(std::string x,std::string y);
+    std::string peticion(std::string x);
+    Client(std::string pswd, std::string ip_dir, std::string port);
 };
 
 

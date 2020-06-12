@@ -4,7 +4,79 @@
 CMakeFiles/Vs_Code.dir/Client.cpp.o
  /cygdrive/c/Users/grero/CLionProjects/Vs_Code/Client.cpp
  /cygdrive/c/Users/grero/CLionProjects/Vs_Code/Client.h
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/adl_serializer.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/binary_reader.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/binary_writer.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/boolean_operators.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/byte_container_with_subtype.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/cpp_future.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/detected.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/exceptions.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/from_json.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/hedley.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/hedley_undef.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/input_adapters.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/internal_iterator.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/is_sax.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/iter_impl.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/iteration_proxy.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/iterator_traits.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/json.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/json_fwd.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/json_pointer.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/json_ref.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/json_reverse_iterator.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/json_sax.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/lexer.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/macro_scope.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/macro_unscope.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/output_adapters.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/parser.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/position_t.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/primitive_iterator.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/serializer.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/to_chars.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/to_json.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/type_traits.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/value_t.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/void_t.hpp
 CMakeFiles/Vs_Code.dir/main.cpp.o
  /cygdrive/c/Users/grero/CLionProjects/Vs_Code/Client.h
  /cygdrive/c/Users/grero/CLionProjects/Vs_Code/main.cpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/adl_serializer.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/binary_reader.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/binary_writer.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/boolean_operators.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/byte_container_with_subtype.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/cpp_future.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/detected.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/exceptions.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/from_json.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/hedley.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/hedley_undef.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/input_adapters.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/internal_iterator.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/is_sax.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/iter_impl.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/iteration_proxy.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/iterator_traits.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/json.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/json_fwd.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/json_pointer.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/json_ref.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/json_reverse_iterator.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/json_sax.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/lexer.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/macro_scope.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/macro_unscope.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/output_adapters.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/parser.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/position_t.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/primitive_iterator.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/serializer.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/to_chars.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/to_json.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/type_traits.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/value_t.hpp
+ /cygdrive/c/Users/grero/CLionProjects/Vs_Code/nlohmann/void_t.hpp
  /cygdrive/c/Users/grero/CLionProjects/Vs_Code/vsptr.h

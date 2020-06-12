@@ -4,6 +4,9 @@
 
 #ifndef VS_CODE_VSPTR_H
 #define VS_CODE_VSPTR_H
+
+#include "Client.h"
+
 using namespace std;
 // clase template
 // crea un puntero de tipo template
@@ -14,21 +17,33 @@ private:
     T *ptr = new T;
     // contador de referencias
     int cont;
+    std::string id;
+    Client socket{"91234","","5000"};
 public:
     // constructor
     Vsptr(): ptr(new T) {
 
         cont ++;
     }
+    // destructor
+    ~Vsptr(){
+        if(--cont == 0){
+            delete ptr;
+        }
+    }
     // clase operator&
     // sobrecarga de &
     T operator&(){
-        return get_ptr();
+
+        std::string valor = socket.peticion(this->id);
+        return std::stoi(valor);
     };
     // clase operator=
     // sobrecarga de = (valor concreto)
     void operator=(const T valor){
+        socket.asignador(std::to_string(valor),this->id);
         *ptr = valor;
+
     };
     // clase &operator*
     // sobrecarga de * (cuando el puntero esta derefenciado)
@@ -37,13 +52,27 @@ public:
     };
     // clase operator=
     // sobrecarga de = (cuando se le pasa valor de puntero)
-    void operator=(T *valor){
+    void operator=( T *valor){
+        if (--cont == 0){
+            delete ptr;
+        }
         this->set_ptr(valor);
+        cont++;
+    };
+    Vsptr<T> &operator=(Vsptr<T> &VS){
+        if (--cont == 0){
+            delete ptr;
+        }
+        socket.asignador(std::to_string (*VS.ptr),this->id);
+        this->ptr = VS.ptr;
+        cont++;
+        return *this;
     };
     // New
     // crea el Vsptr
     static Vsptr<T> New(){
         Vsptr<T> *myPtr = new Vsptr<T>;
+        myPtr ->set_id(myPtr ->socket.inicializador());
         return *myPtr;
     };
     // get_ptr
@@ -58,6 +87,14 @@ public:
         Vsptr::ptr = punt;
 
     };
+    std::string get_id(){
+        return  id;
+    };
+    void set_id(std::string data){
+        Vsptr::id = data;
 
+    };
 };
+
+
 #endif //VS_CODE_VSPTR_H
