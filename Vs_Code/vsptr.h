@@ -18,7 +18,7 @@ private:
     // contador de referencias
     int cont;
     std::string id;
-    Client socket{"91234","","5000"};
+    Client socket{"1234","","5000"};
 public:
     // constructor
     Vsptr(): ptr(new T) {
@@ -59,6 +59,7 @@ public:
         this->set_ptr(valor);
         cont++;
     };
+    //asigna valor de un puntero a otro
     Vsptr<T> &operator=(Vsptr<T> &VS){
         if (--cont == 0){
             delete ptr;
@@ -87,9 +88,11 @@ public:
         Vsptr::ptr = punt;
 
     };
+    //consigue el id
     std::string get_id(){
         return  id;
     };
+    //setea el valor del id
     void set_id(std::string data){
         Vsptr::id = data;
 

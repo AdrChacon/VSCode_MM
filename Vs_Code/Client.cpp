@@ -22,7 +22,8 @@ void error(const char *msg)
     perror(msg);
     exit(0);
 }
-
+//clase inicializador
+// Le pide al servidor el id que se le va a asignar al puntero.
 std::string Client::inicializador()
 {
     json ejm = {{"dato","0"},{"tipo","int"}};
@@ -62,6 +63,8 @@ std::string Client::inicializador()
 
     return id;
 }
+//clase asignador
+//Se encarga de perdir al servidor asignar un id  a un puntero especifico.
 int Client::asignador(std::string x, std::string y)
 {
     int sockfd, n;
@@ -88,6 +91,8 @@ int Client::asignador(std::string x, std::string y)
     close(sockfd);
     return 0;
 }
+//clase peticion
+// Le pide al server el dato de un puntero
 std::string Client::peticion(std::string x)
 {
     json ejm = {{"id",x},{"tipo","request"}};
@@ -126,6 +131,8 @@ std::string Client::peticion(std::string x)
     data = j["dato"];
     return data;
 }
+//clase client
+// Se envia el pswd al server para poder para poder acceder a sus funciones.
 Client::Client(std::string pswd, std::string ip_dir,std::string port)
 {
     json ejm = {{"pswd",pswd},{"tipo",""}};

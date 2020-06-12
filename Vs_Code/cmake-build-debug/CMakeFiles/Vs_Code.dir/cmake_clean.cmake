@@ -1,9 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Vs_Code.dir/Client.cpp.o"
   "CMakeFiles/Vs_Code.dir/main.cpp.o"
-  "Vs_Code.exe"
+  "Vs_Code"
   "Vs_Code.pdb"
-  "libVs_Code.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

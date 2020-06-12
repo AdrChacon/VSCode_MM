@@ -1,1 +1,1 @@
-/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/Vs_Code.dir/main.cpp.o CMakeFiles/Vs_Code.dir/Client.cpp.o  -o Vs_Code.exe -Wl,--out-implib,libVs_Code.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+/usr/bin/c++  -g   CMakeFiles/Vs_Code.dir/main.cpp.o CMakeFiles/Vs_Code.dir/Client.cpp.o  -o Vs_Code 

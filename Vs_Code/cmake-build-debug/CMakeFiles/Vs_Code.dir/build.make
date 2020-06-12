@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /cygdrive/c/Users/grero/AppData/Local/JetBrains/CLion2020.1/cygwin_cmake/bin/cmake.exe
+CMAKE_COMMAND = /opt/clion-2020.1.2/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /cygdrive/c/Users/grero/AppData/Local/JetBrains/CLion2020.1/cygwin_cmake/bin/cmake.exe -E remove -f
+RM = /opt/clion-2020.1.2/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Users/grero/CLionProjects/Vs_Code
+CMAKE_SOURCE_DIR = /home/gretchell/CLionProjects/Vs_Code
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Users/grero/CLionProjects/Vs_Code/cmake-build-debug
+CMAKE_BINARY_DIR = /home/gretchell/CLionProjects/Vs_Code/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Vs_Code.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/Vs_Code.dir/flags.make
 
 CMakeFiles/Vs_Code.dir/main.cpp.o: CMakeFiles/Vs_Code.dir/flags.make
 CMakeFiles/Vs_Code.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/grero/CLionProjects/Vs_Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Vs_Code.dir/main.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Vs_Code.dir/main.cpp.o -c /cygdrive/c/Users/grero/CLionProjects/Vs_Code/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gretchell/CLionProjects/Vs_Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Vs_Code.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Vs_Code.dir/main.cpp.o -c /home/gretchell/CLionProjects/Vs_Code/main.cpp
 
 CMakeFiles/Vs_Code.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Vs_Code.dir/main.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/grero/CLionProjects/Vs_Code/main.cpp > CMakeFiles/Vs_Code.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gretchell/CLionProjects/Vs_Code/main.cpp > CMakeFiles/Vs_Code.dir/main.cpp.i
 
 CMakeFiles/Vs_Code.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Vs_Code.dir/main.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/grero/CLionProjects/Vs_Code/main.cpp -o CMakeFiles/Vs_Code.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gretchell/CLionProjects/Vs_Code/main.cpp -o CMakeFiles/Vs_Code.dir/main.cpp.s
 
 CMakeFiles/Vs_Code.dir/Client.cpp.o: CMakeFiles/Vs_Code.dir/flags.make
 CMakeFiles/Vs_Code.dir/Client.cpp.o: ../Client.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/grero/CLionProjects/Vs_Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Vs_Code.dir/Client.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Vs_Code.dir/Client.cpp.o -c /cygdrive/c/Users/grero/CLionProjects/Vs_Code/Client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gretchell/CLionProjects/Vs_Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Vs_Code.dir/Client.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Vs_Code.dir/Client.cpp.o -c /home/gretchell/CLionProjects/Vs_Code/Client.cpp
 
 CMakeFiles/Vs_Code.dir/Client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Vs_Code.dir/Client.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/grero/CLionProjects/Vs_Code/Client.cpp > CMakeFiles/Vs_Code.dir/Client.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gretchell/CLionProjects/Vs_Code/Client.cpp > CMakeFiles/Vs_Code.dir/Client.cpp.i
 
 CMakeFiles/Vs_Code.dir/Client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Vs_Code.dir/Client.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/grero/CLionProjects/Vs_Code/Client.cpp -o CMakeFiles/Vs_Code.dir/Client.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gretchell/CLionProjects/Vs_Code/Client.cpp -o CMakeFiles/Vs_Code.dir/Client.cpp.s
 
 # Object files for target Vs_Code
 Vs_Code_OBJECTS = \
@@ -91,15 +91,15 @@ Vs_Code_OBJECTS = \
 # External object files for target Vs_Code
 Vs_Code_EXTERNAL_OBJECTS =
 
-Vs_Code.exe: CMakeFiles/Vs_Code.dir/main.cpp.o
-Vs_Code.exe: CMakeFiles/Vs_Code.dir/Client.cpp.o
-Vs_Code.exe: CMakeFiles/Vs_Code.dir/build.make
-Vs_Code.exe: CMakeFiles/Vs_Code.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/grero/CLionProjects/Vs_Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Vs_Code.exe"
+Vs_Code: CMakeFiles/Vs_Code.dir/main.cpp.o
+Vs_Code: CMakeFiles/Vs_Code.dir/Client.cpp.o
+Vs_Code: CMakeFiles/Vs_Code.dir/build.make
+Vs_Code: CMakeFiles/Vs_Code.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gretchell/CLionProjects/Vs_Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Vs_Code"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Vs_Code.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/Vs_Code.dir/build: Vs_Code.exe
+CMakeFiles/Vs_Code.dir/build: Vs_Code
 
 .PHONY : CMakeFiles/Vs_Code.dir/build
 
@@ -108,6 +108,6 @@ CMakeFiles/Vs_Code.dir/clean:
 .PHONY : CMakeFiles/Vs_Code.dir/clean
 
 CMakeFiles/Vs_Code.dir/depend:
-	cd /cygdrive/c/Users/grero/CLionProjects/Vs_Code/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/grero/CLionProjects/Vs_Code /cygdrive/c/Users/grero/CLionProjects/Vs_Code /cygdrive/c/Users/grero/CLionProjects/Vs_Code/cmake-build-debug /cygdrive/c/Users/grero/CLionProjects/Vs_Code/cmake-build-debug /cygdrive/c/Users/grero/CLionProjects/Vs_Code/cmake-build-debug/CMakeFiles/Vs_Code.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gretchell/CLionProjects/Vs_Code/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gretchell/CLionProjects/Vs_Code /home/gretchell/CLionProjects/Vs_Code /home/gretchell/CLionProjects/Vs_Code/cmake-build-debug /home/gretchell/CLionProjects/Vs_Code/cmake-build-debug /home/gretchell/CLionProjects/Vs_Code/cmake-build-debug/CMakeFiles/Vs_Code.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Vs_Code.dir/depend
 
