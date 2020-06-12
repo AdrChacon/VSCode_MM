@@ -17,7 +17,8 @@ void error(const char *msg)
     perror(msg);
     exit(1);
 }
-
+//main
+//Mantiene al server el cual se encarga de funcionar como base de datos.
 int main()
 {
     json ok = {{"id",""}};

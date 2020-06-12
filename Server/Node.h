@@ -3,7 +3,7 @@
 
 #include<cstddef>
 #include <string>
-
+//inicia la clase nodo
 class Node{
 private:
     std::string id;

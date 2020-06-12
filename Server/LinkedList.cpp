@@ -1,14 +1,15 @@
 #include "LinkedList.h"
 #include<iostream>
-
+//constructor
 LinkedList::LinkedList(){
     size = 0;
     head = NULL;
 }
-
+//Retorna cabeza lista
 Node* LinkedList::getHead(){
     return head;
 }
+//mete un nodo en la lista
 void LinkedList::addNode(std::string data,std::string id){
     Node* node = new Node(data,id);
     if (isEmpty()){
@@ -23,6 +24,7 @@ void LinkedList::addNode(std::string data,std::string id){
         size++;
     }
 }
+//obtiene un nodo
 Node* LinkedList::getNode(std::string id){
     Node* current = getHead();
     while(current->getNext() != NULL){
@@ -34,6 +36,7 @@ Node* LinkedList::getNode(std::string id){
     }
     return NULL;
 }
+//remueve un nodo
 void LinkedList::removeNode(std::string id){
     Node* current = getHead();
     if (current->getData() == id){
@@ -51,15 +54,15 @@ void LinkedList::removeNode(std::string id){
         
     }
 }
-
+//ve si esta vacia la lista
 bool LinkedList::isEmpty(){
     return size==0;
 }
-
+//tiene el tamano de la lista
 int LinkedList::getSize(){
     return size;
 }
-
+//imprime cada nodo de la lista
 void LinkedList::printList(){
     if(!isEmpty()){
         cout << "La lista posee:" << endl;
@@ -74,7 +77,7 @@ void LinkedList::printList(){
         cout << "List is empty." << endl;
     }
 }
-
+//cambia la data de un nodo de la lista
 void LinkedList::change_data(std::string id, std::string data) {
     Node* current = getHead();
     while(current != NULL){
@@ -88,6 +91,7 @@ void LinkedList::change_data(std::string id, std::string data) {
 
 
 }
+//obtiene la data de un nodo de la lista
 std::string LinkedList::obtencion(std::string id) {
     Node* current = getHead();
     while(current != NULL){

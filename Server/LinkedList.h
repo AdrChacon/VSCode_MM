@@ -5,7 +5,7 @@
 #include "Node.h"
 using namespace std;
 
-
+//se define la clase Linkedlist
 class LinkedList{
 private:
     Node* head;

@@ -1,4 +1,6 @@
-C:\Users\grero\AppData\Local\JetBrains\CLion2020.1\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Users/grero/CLionProjects/Server
--- Configuring done
--- Generating done
--- Build files have been written to: /cygdrive/c/Users/grero/CLionProjects/Server/cmake-build-debug
+/home/gretchell/Downloads/clion-2019.3.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/gretchell/CLionProjects/Server
+CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  CMake 3.16 or higher is required.  You are running version 3.15.3
+
+
+-- Configuring incomplete, errors occurred!

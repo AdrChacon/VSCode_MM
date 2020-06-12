@@ -1,0 +1,4 @@
+/opt/clion-2020.1.2/bin/cmake/linux/bin/cmake -G "CodeBlocks - Unix Makefiles" /home/gretchell/CLionProjects/Server
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/gretchell/CLionProjects/Server/cmake-build-default
