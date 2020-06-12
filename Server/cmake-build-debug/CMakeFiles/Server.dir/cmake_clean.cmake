@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Server.dir/Linkedlist.cpp.o"
+  "CMakeFiles/Server.dir/Node.cpp.o"
   "CMakeFiles/Server.dir/main.cpp.o"
   "Server.exe"
   "Server.pdb"
