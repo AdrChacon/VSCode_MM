@@ -1,15 +1,27 @@
 #include "LinkedList.h"
 #include<iostream>
-//constructor
+
+/**
+ * Constructor
+ */
 LinkedList::LinkedList(){
     size = 0;
     head = NULL;
 }
-//Retorna cabeza lista
+
+/**
+ * Retorna la cabeza de la lista
+ * @return Node
+ */
 Node* LinkedList::getHead(){
     return head;
 }
-//mete un nodo en la lista
+
+/**
+ * Agrega un nodo a la lista
+ * @param data
+ * @param id
+ */
 void LinkedList::addNode(std::string data,std::string id){
     Node* node = new Node(data,id);
     if (isEmpty()){
@@ -24,7 +36,11 @@ void LinkedList::addNode(std::string data,std::string id){
         size++;
     }
 }
-//obtiene un nodo
+
+/**
+ * Obtiene un nodo
+ * @return Node
+ */
 Node* LinkedList::getNode(std::string id){
     Node* current = getHead();
     while(current->getNext() != NULL){
@@ -36,7 +52,11 @@ Node* LinkedList::getNode(std::string id){
     }
     return NULL;
 }
-//remueve un nodo
+
+/**
+ * Remueve un nodo de la lista
+ * @param id
+ */
 void LinkedList::removeNode(std::string id){
     Node* current = getHead();
     if (current->getData() == id){
@@ -54,15 +74,26 @@ void LinkedList::removeNode(std::string id){
         
     }
 }
-//ve si esta vacia la lista
+
+/**
+ * Verifica si la lista esta vacia
+ * @return bool
+ */
 bool LinkedList::isEmpty(){
     return size==0;
 }
-//tiene el tamano de la lista
+
+/** 
+ * Obtiene el largo de la lista
+ * @return int
+ */
 int LinkedList::getSize(){
     return size;
 }
-//imprime cada nodo de la lista
+
+/**
+ * Imprime cada nodo de la lista
+ */
 void LinkedList::printList(){
     if(!isEmpty()){
         cout << "La lista posee:" << endl;
@@ -77,7 +108,12 @@ void LinkedList::printList(){
         cout << "List is empty." << endl;
     }
 }
-//cambia la data de un nodo de la lista
+
+/**
+ * Cambia los datos de un nodo de la lista
+ * @param id
+ * @param data
+ */
 void LinkedList::change_data(std::string id, std::string data) {
     Node* current = getHead();
     while(current != NULL){
@@ -91,7 +127,12 @@ void LinkedList::change_data(std::string id, std::string data) {
 
 
 }
-//obtiene la data de un nodo de la lista
+
+/**
+ * Obtiene los datos de un nodo de la lista
+ * @param id
+ * @return string
+ */
 std::string LinkedList::obtencion(std::string id) {
     Node* current = getHead();
     while(current != NULL){

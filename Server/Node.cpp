@@ -1,33 +1,54 @@
 #include "Node.h"
 
-//constructor
+/**
+ * Constructor
+ */
 Node::Node(std::string Data, std::string ID){
     id = ID;
     data = Data;
     next = NULL;
 }
 
-//tiene la data del nodo
+/**
+ * Obtiene el dato del nodo
+ * @return Dato
+ */
 std::string Node::getData(){
     return data;
 }
-//set id
+
+/**
+ * Establece el ID del nodo
+ */
 void Node::setID(std::string ID){
     id = ID;
 }
-//tiene el id del nodo
+
+/**
+ * Retorna el id del nodo
+ */
 std::string Node::getID(){
     return id;
 }
-//setea la data
+
+/**
+ * Establece el dato del nodo
+ */
 void Node::setData(std::string Data){
     data = Data;
 }
-//obtiene el siguiente nodo
+
+/**
+ * Obtiene el siguiente nodo
+ * @return Node
+ */
 Node* Node::getNext(){
     return next;
 }
-//setea el siguiente nodo
+
+/** Establece el siguiente nodo
+ *  @param node
+ */
 void Node::setNext(Node* node){
     next = node;
 }

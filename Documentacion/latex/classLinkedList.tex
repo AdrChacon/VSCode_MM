@@ -1,0 +1,136 @@
+\hypertarget{classLinkedList}{}\doxysection{Linked\+List Class Reference}
+\label{classLinkedList}\index{LinkedList@{LinkedList}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classLinkedList_afe7f78983e173f8018927cf2ad11a5aa}{Linked\+List}} ()
+\item 
+\mbox{\hyperlink{classNode}{Node}} $\ast$ \mbox{\hyperlink{classLinkedList_a1cba1fc059374f4d263bf5bece9fa136}{get\+Head}} ()
+\item 
+int \mbox{\hyperlink{classLinkedList_ade0d9dccda8c5253fa17309796405c87}{get\+Size}} ()
+\item 
+void \mbox{\hyperlink{classLinkedList_a14dc94962da088e719289d87838818fc}{add\+Node}} (std\+::string data, std\+::string id)
+\item 
+\mbox{\hyperlink{classNode}{Node}} $\ast$ \mbox{\hyperlink{classLinkedList_a1e0b33cb444d6af5a3fb66cf34419d91}{get\+Node}} (std\+::string id)
+\item 
+void \mbox{\hyperlink{classLinkedList_a831616f1774ae91bd52d36203b4ac49a}{remove\+Node}} (std\+::string id)
+\item 
+bool \mbox{\hyperlink{classLinkedList_a03ff22f881325da2d37f640ab2380bf2}{is\+Empty}} ()
+\item 
+void \mbox{\hyperlink{classLinkedList_ac96230938fd74a4efeb4efe8c995ee53}{print\+List}} ()
+\item 
+void \mbox{\hyperlink{classLinkedList_a61de90afd38249ee2ed034a92f0a706c}{change\+\_\+data}} (std\+::string id, std\+::string data)
+\item 
+std\+::string \mbox{\hyperlink{classLinkedList_adb08475a4576f49e06fcea85f6af12f8}{obtencion}} (std\+::string id)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classLinkedList_afe7f78983e173f8018927cf2ad11a5aa}\label{classLinkedList_afe7f78983e173f8018927cf2ad11a5aa}} 
+\index{LinkedList@{LinkedList}!LinkedList@{LinkedList}}
+\index{LinkedList@{LinkedList}!LinkedList@{LinkedList}}
+\doxysubsubsection{\texorpdfstring{LinkedList()}{LinkedList()}}
+{\footnotesize\ttfamily Linked\+List\+::\+Linked\+List (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Constructor 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classLinkedList_a14dc94962da088e719289d87838818fc}\label{classLinkedList_a14dc94962da088e719289d87838818fc}} 
+\index{LinkedList@{LinkedList}!addNode@{addNode}}
+\index{addNode@{addNode}!LinkedList@{LinkedList}}
+\doxysubsubsection{\texorpdfstring{addNode()}{addNode()}}
+{\footnotesize\ttfamily void Linked\+List\+::add\+Node (\begin{DoxyParamCaption}\item[{std\+::string}]{data,  }\item[{std\+::string}]{id }\end{DoxyParamCaption})}
+
+Agrega un nodo a la lista 
+\begin{DoxyParams}{Parameters}
+{\em data} & \\
+\hline
+{\em id} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classLinkedList_a61de90afd38249ee2ed034a92f0a706c}\label{classLinkedList_a61de90afd38249ee2ed034a92f0a706c}} 
+\index{LinkedList@{LinkedList}!change\_data@{change\_data}}
+\index{change\_data@{change\_data}!LinkedList@{LinkedList}}
+\doxysubsubsection{\texorpdfstring{change\_data()}{change\_data()}}
+{\footnotesize\ttfamily void Linked\+List\+::change\+\_\+data (\begin{DoxyParamCaption}\item[{std\+::string}]{id,  }\item[{std\+::string}]{data }\end{DoxyParamCaption})}
+
+Cambia los datos de un nodo de la lista 
+\begin{DoxyParams}{Parameters}
+{\em id} & \\
+\hline
+{\em data} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classLinkedList_a1cba1fc059374f4d263bf5bece9fa136}\label{classLinkedList_a1cba1fc059374f4d263bf5bece9fa136}} 
+\index{LinkedList@{LinkedList}!getHead@{getHead}}
+\index{getHead@{getHead}!LinkedList@{LinkedList}}
+\doxysubsubsection{\texorpdfstring{getHead()}{getHead()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classNode}{Node}} $\ast$ Linked\+List\+::get\+Head (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Retorna la cabeza de la lista \begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classNode}{Node}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classLinkedList_a1e0b33cb444d6af5a3fb66cf34419d91}\label{classLinkedList_a1e0b33cb444d6af5a3fb66cf34419d91}} 
+\index{LinkedList@{LinkedList}!getNode@{getNode}}
+\index{getNode@{getNode}!LinkedList@{LinkedList}}
+\doxysubsubsection{\texorpdfstring{getNode()}{getNode()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classNode}{Node}} $\ast$ Linked\+List\+::get\+Node (\begin{DoxyParamCaption}\item[{std\+::string}]{id }\end{DoxyParamCaption})}
+
+Obtiene un nodo \begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classNode}{Node}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classLinkedList_ade0d9dccda8c5253fa17309796405c87}\label{classLinkedList_ade0d9dccda8c5253fa17309796405c87}} 
+\index{LinkedList@{LinkedList}!getSize@{getSize}}
+\index{getSize@{getSize}!LinkedList@{LinkedList}}
+\doxysubsubsection{\texorpdfstring{getSize()}{getSize()}}
+{\footnotesize\ttfamily int Linked\+List\+::get\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Obtiene el largo de la lista \begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classLinkedList_a03ff22f881325da2d37f640ab2380bf2}\label{classLinkedList_a03ff22f881325da2d37f640ab2380bf2}} 
+\index{LinkedList@{LinkedList}!isEmpty@{isEmpty}}
+\index{isEmpty@{isEmpty}!LinkedList@{LinkedList}}
+\doxysubsubsection{\texorpdfstring{isEmpty()}{isEmpty()}}
+{\footnotesize\ttfamily bool Linked\+List\+::is\+Empty (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Verifica si la lista esta vacia \begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classLinkedList_adb08475a4576f49e06fcea85f6af12f8}\label{classLinkedList_adb08475a4576f49e06fcea85f6af12f8}} 
+\index{LinkedList@{LinkedList}!obtencion@{obtencion}}
+\index{obtencion@{obtencion}!LinkedList@{LinkedList}}
+\doxysubsubsection{\texorpdfstring{obtencion()}{obtencion()}}
+{\footnotesize\ttfamily std\+::string Linked\+List\+::obtencion (\begin{DoxyParamCaption}\item[{std\+::string}]{id }\end{DoxyParamCaption})}
+
+Obtiene los datos de un nodo de la lista 
+\begin{DoxyParams}{Parameters}
+{\em id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classLinkedList_ac96230938fd74a4efeb4efe8c995ee53}\label{classLinkedList_ac96230938fd74a4efeb4efe8c995ee53}} 
+\index{LinkedList@{LinkedList}!printList@{printList}}
+\index{printList@{printList}!LinkedList@{LinkedList}}
+\doxysubsubsection{\texorpdfstring{printList()}{printList()}}
+{\footnotesize\ttfamily void Linked\+List\+::print\+List (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Imprime cada nodo de la lista \mbox{\Hypertarget{classLinkedList_a831616f1774ae91bd52d36203b4ac49a}\label{classLinkedList_a831616f1774ae91bd52d36203b4ac49a}} 
+\index{LinkedList@{LinkedList}!removeNode@{removeNode}}
+\index{removeNode@{removeNode}!LinkedList@{LinkedList}}
+\doxysubsubsection{\texorpdfstring{removeNode()}{removeNode()}}
+{\footnotesize\ttfamily void Linked\+List\+::remove\+Node (\begin{DoxyParamCaption}\item[{std\+::string}]{id }\end{DoxyParamCaption})}
+
+Remueve un nodo de la lista 
+\begin{DoxyParams}{Parameters}
+{\em id} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Server/Linked\+List.\+h\item 
+Server/Linked\+List.\+cpp\end{DoxyCompactItemize}

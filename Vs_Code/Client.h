@@ -7,7 +7,9 @@
 
 
 #include <string>
-//inicia la clase cliente 
+/**
+ * Inicia la clase cliente
+ */ 
 class Client {
     public:
 
